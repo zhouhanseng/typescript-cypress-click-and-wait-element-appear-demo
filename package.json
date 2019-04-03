@@ -1,9 +1,14 @@
 {
   "scripts": {
-    "demo": "ts-node hello.ts"
+    "test:open": "cypress open",
+    "test:run": "cypress run"
   },
   "devDependencies": {
-    "ts-node": "7.0.1",
-    "typescript": "3.2.2"
+    "@cypress/webpack-preprocessor": "4.0.3",
+    "cypress": "3.2.0",
+    "ts-loader": "5.3.3",
+    "typescript": "3.2.2",
+    "webpack": "4.8.3",
+    "webpack-cli": "3.3.0"
   }
 }
